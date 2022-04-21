@@ -42,6 +42,7 @@ char *errors[] = {
 		"Remote web server did not specify the appropriate Sec-WebSocket-Accept header during handshake",
 		NULL
 };
+int libwsclient_flags = 0;
 
 //forward declaration
 int base64_encode_ws(char *source, size_t sourcelen, char *target, size_t targetlen);
