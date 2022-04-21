@@ -148,7 +148,7 @@ void *libwsclient_helper_socket_thread(void *ptr);
 //Define errors
 extern char *errors[];
 
-int libwsclient_flags; //global flags variable
+extern int libwsclient_flags; //global flags variable
 
 
 #endif /* WSCLIENT_H_ */
